@@ -92,6 +92,7 @@ allow vtservice system_file:dir open;
 
 # give permission for hal client
 allow vtservice mtk_hal_videotelephony_hwservice:hwservice_manager find;
+allow vtservice mtk_hal_videotelephony_hwservice:service_manager find;
 
 # Date : 2017/08/14
 # Operation : VT development
